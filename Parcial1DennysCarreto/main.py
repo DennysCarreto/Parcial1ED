@@ -86,7 +86,7 @@ while True:
             polinomioA.recorrerOperar(valorX)
         elif poli == 'b' or poli == 'B':
             # # Evaluar valor x en polinomio B
-            pass
+            polinomioB.recorrerOperar(valorX)
 
     elif opcion == 4:
         if polinomioA.is_empy() and polinomioB.is_empy():
